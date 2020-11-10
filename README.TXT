@@ -1,32 +1,29 @@
-========================
-BUILD OUTPUT DESCRIPTION
-========================
+=====================================
+Vending Machine Project DESCRIPTION
+=====================================
 
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
+I have designed and developed a vending machine which vends products based upon four denominations of
+coins and returns coins if there is no item.
 
-To run the project from the command line, go to the dist folder and
-type the following:
+We require you to develop a single page application that does the following:
+1. When the application loads, it loads data about all the instances from the products and
+   Coins and visualizes this data in some way. (e.g. A table with all the data)
+   
+2. The application must have some mechanism for refreshing all the data from the API without
+   having to reload the entire application (e.g. A refresh data button)
+   
+3. The application must have some mechanism for refreshing the data of only a section
+  (products or coins)
+4. The application should show the user some indication that it is refreshing/loading new data
 
-java -jar "WebApp_Interview.jar" 
+==========================================================================================================
+ Code:
+==========================================================================================================
+ 
+The code can be found in the file called VendingMachine.java
 
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
+======================================
+Testing the Vending Machine Solution
+======================================
 
-Notes:
-
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
+To test the solution, you can open the jar file. You can click on the file called VendingMachine.jar. This will open our vending machine
