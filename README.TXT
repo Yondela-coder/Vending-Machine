@@ -25,7 +25,7 @@ The code can be found in the file called VendingMachine.java
 ======================================
 Testing the Vending Machine Solution
 ======================================
-To test the solution, you can open the jar file. You can click on the file called WebApp_Interview.jar. This will open our vending machine
+To test the solution, you can open the jar file. You can click on the file called WebApp_Interview.jar. This will open the vending machine
 
 
 
