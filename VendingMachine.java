@@ -33,7 +33,7 @@ public class VendingMachine extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         
-//         Create the Radio Buttons
+//         Create the Radio Buttons for the products being sold
         
         CokeRB = new javax.swing.JRadioButton();
         PepsiRB = new javax.swing.JRadioButton();
@@ -42,7 +42,7 @@ public class VendingMachine extends javax.swing.JFrame {
         WaterRB = new javax.swing.JRadioButton();
         IceTeaRB = new javax.swing.JRadioButton();
         
-//         Create the Buttons
+//         Create the Purchase button, clear button, and cancel button
         purchaseBtn = new javax.swing.JButton();
         clearBtn = new javax.swing.JButton();
         cancelBtn = new javax.swing.JButton();
@@ -51,7 +51,7 @@ public class VendingMachine extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         
-//         Create the text field
+//         Create the money text field and the change text field
         moneyTF = new javax.swing.JTextField();
         changeTF = new javax.swing.JTextField();
 
