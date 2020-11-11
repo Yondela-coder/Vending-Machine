@@ -29,7 +29,16 @@ Testing the Vending Machine Solution
 ======================================
 To test the solution, you can open the jar file. 
 You can click on the file called WebApp_Interview.jar 
-The file will download, then click the downloaded file to open the vending machine.
+The file will download, then click the downloaded file to open the vending machine. 
+
+=======================================
+CHeck point procedures:
+1. Insert money
+2. Select Item
+3. Select purchase
+4. If you don't have enough money it will communicate not enough funds.
+5. Refresh by clicking clear
+6. If you dont want the purchase anymore you can cancel and machine will return your money.
 
 
 
