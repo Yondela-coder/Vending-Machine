@@ -177,6 +177,7 @@ public class VendingMachine extends javax.swing.JFrame {
 //         Set the text for Change label
         jLabel3.setText("Change :");
 
+//        Ensure change text field is not be editable 
         changeTF.setEditable(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
