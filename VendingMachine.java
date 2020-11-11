@@ -63,6 +63,7 @@ public class VendingMachine extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Select an item"));
 
+//         Set the text for coke radio button
         CokeRB.setText("Coca Cola R10,00");
         CokeRB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,34 +71,39 @@ public class VendingMachine extends javax.swing.JFrame {
             }
         });
 
+//         Set the text for Pepsi radio button
         PepsiRB.setText("Pepsi R10,00");
         PepsiRB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PepsiRBActionPerformed(evt);
             }
         });
-
+        
+//         Set the text for Sprite radio button
         SpriteRB.setText("Sprite R10,50");
         SpriteRB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SpriteRBActionPerformed(evt);
             }
         });
-
+        
+//         Set the text for PepsiMax radio button
         PepsiMaxRB.setText("Pepsi Max R9,00");
         PepsiMaxRB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PepsiMaxRBActionPerformed(evt);
             }
         });
-
+        
+//         Set the text for Water radio button
         WaterRB.setText("Water R9,50");
         WaterRB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 WaterRBActionPerformed(evt);
             }
         });
-
+        
+//         Set the text for Ice Tea radio button
         IceTeaRB.setText("Ice Tea R12,00");
         IceTeaRB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,30 +145,36 @@ public class VendingMachine extends javax.swing.JFrame {
                     .addComponent(IceTeaRB))
                 .addContainerGap(52, Short.MAX_VALUE))
         );
-
+        
+//         Set the text for Purchase button
         purchaseBtn.setText("Purchase");
         purchaseBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 purchaseBtnActionPerformed(evt);
             }
         });
-
+        
+//         Set the text for Clear button
         clearBtn.setText("Clear");
         clearBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearBtnActionPerformed(evt);
             }
         });
-
+        
+//         Set the text for Cancel button
         cancelBtn.setText("Cancel");
         cancelBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cancelBtnActionPerformed(evt);
             }
         });
-
+        
+        
+//         Set the text for Insert money label
         jLabel2.setText("Insert money :");
-
+        
+//         Set the text for Change label
         jLabel3.setText("Change :");
 
         changeTF.setEditable(false);
@@ -232,7 +244,8 @@ public class VendingMachine extends javax.swing.JFrame {
     }//GEN-LAST:event_cancelBtnActionPerformed
 
     private void clearBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearBtnActionPerformed
-        // Clears all selections and text fields
+        
+//         If no money is inserted, no purchase occurs.
         
         SpriteRB.setSelected(false);
         CokeRB.setSelected(false);
@@ -245,7 +258,9 @@ public class VendingMachine extends javax.swing.JFrame {
     }//GEN-LAST:event_clearBtnActionPerformed
 
     private void CokeRBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CokeRBActionPerformed
+        
         // changing radio buttons to select only one item
+        // Ensure selection of one item per purchase 
         
         if(CokeRB.isSelected()){
             SpriteRB.setSelected(false);
