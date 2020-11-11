@@ -32,7 +32,7 @@ You can click on the file called WebApp_Interview.jar
 The file will download, then click the downloaded file to open the vending machine. 
 
 =======================================
-CHeck point procedures:
+Check point procedures:
 1. Insert money
 2. Select Item
 3. Select purchase
