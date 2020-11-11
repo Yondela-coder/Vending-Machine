@@ -29,19 +29,29 @@ public class VendingMachine extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+//         Create the label and panel
         jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
+        
+//         Create the Radio Buttons
+        
         CokeRB = new javax.swing.JRadioButton();
         PepsiRB = new javax.swing.JRadioButton();
         SpriteRB = new javax.swing.JRadioButton();
         PepsiMaxRB = new javax.swing.JRadioButton();
         WaterRB = new javax.swing.JRadioButton();
         IceTeaRB = new javax.swing.JRadioButton();
+        
+//         Create the Buttons
         purchaseBtn = new javax.swing.JButton();
         clearBtn = new javax.swing.JButton();
         cancelBtn = new javax.swing.JButton();
+        
+//         Create the label
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        
+//         Create the text field
         moneyTF = new javax.swing.JTextField();
         changeTF = new javax.swing.JTextField();
 
